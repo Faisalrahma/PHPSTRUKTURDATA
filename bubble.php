@@ -1,5 +1,5 @@
 <?php
-echo "//bubble sortn";
+echo "bubble sort";
 $data=array(6,5,3,1,8,7,2,4);
 function bubble_sort($data){
   $n=count($data);
@@ -13,4 +13,9 @@ function bubble_sort($data){
   }
   return $data;
 }
-print_r(bubble_sort($data));
+echo "Data Acak \n";
+echo implode ($data);
+echo "Data Urut \n";
+echo implode (bubble_sort($data));
+
+?>
