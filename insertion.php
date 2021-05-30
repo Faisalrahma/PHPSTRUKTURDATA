@@ -13,4 +13,4 @@ function insertion_sort($data){
   }
   return $data;
 }
-print_r(insertion_sort($data));
+echo implode(insertion_sort($data));
